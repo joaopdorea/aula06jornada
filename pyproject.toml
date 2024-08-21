@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "aula06jornada"
+version = "0.1.0"
+description = ""
+authors = ["João Dorea <84815558+joaopdorea@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12.1"
+pre-commit = "^3.8.0"
+blue = "^0.9.1"
+dask = "^2024.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
